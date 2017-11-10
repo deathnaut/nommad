@@ -26,7 +26,7 @@ class DisplayContainerDesktop extends Component {
       this.setState({
         message: <div className="message">
                     <p>There are no food trucks near that location.</p>
-                    <img alt="sobbing emoji" src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/114/loudly-crying-face_1f62d.png"/>
+                    <img alt="sobbing emoji" id="emoji" src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/114/loudly-crying-face_1f62d.png"/>
                  </div>
       })
     }, 1500);

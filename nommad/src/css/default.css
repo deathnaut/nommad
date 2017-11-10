@@ -5,6 +5,11 @@ html, body {
   font-family: 'Nunito', san-serif !important;
 }
 
+#emoji{
+  height: 100px;
+  width: 100px;
+}
+
 .App {
   display: flex;
   min-height: 100vh;
@@ -259,7 +264,7 @@ img #github-logo{
 
   #display-trucks-area-msg{
     margin-top: 0;
-    padding-top: 15px;
+    padding-top: 0;
   }
 
   .search {
