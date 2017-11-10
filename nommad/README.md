@@ -1,4 +1,4 @@
-![Logo: eat by Llisole from the Noun Project](https://imgur.com/8JxtpPr)
+![Logo: eat by Llisole from the Noun Project]("https://i.imgur.com/8JxtpPr.png")
 #  Welcome to Nommad
 Nommad is a food-truck finder app, for both desktop and mobile platforms, inspired by and designed for Austin, TX.
 
