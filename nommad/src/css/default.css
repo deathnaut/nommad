@@ -2,8 +2,7 @@ html, body {
   margin: 0 auto;
   background-color: #E10A53;
   max-width: 1500px;
-  font-family: sans-serif;
-
+  font-family: 'Nunito', san-serif !important;
 }
 
 .App {
@@ -147,6 +146,10 @@ button:hover {
   flex: 1;
   flex-grow: 2;
   width: 100%;
+}
+
+h1{
+  font-size: 12px;
 }
 
 .iconContainer {
