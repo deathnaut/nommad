@@ -50,6 +50,10 @@ html, body {
   object-fit: contain;
 }
 
+.iconContainer {
+  display: none;
+}
+
 .nommad-logo-lrg {
   width: 200px;
   height: auto;
@@ -66,12 +70,18 @@ html, body {
   background: linear-gradient(to right, rgba(0,0,0, 0.7), rgba(0,0,0, 0.01));
   padding: 5px;
   width: 91%;
-  height: 100%;
+  overflow-y: hidden;
+  min-height: 190px;
   color: #fff;
 }
 
 .ratings p img {
   max-width: 75%
+}
+
+.main-info>h2 {
+  font-size: 20px;
+  margin-top: 0;
 }
 
 h4 {
@@ -90,6 +100,10 @@ h3 {
   letter-spacing: 1px;
   text-align: left;
   color: #07362b;
+}
+
+h5 {
+  margin-bottom: 0;
 }
 
 input[type=text] {
@@ -190,9 +204,10 @@ h1{
   flex-grow: 0;
   flex-basis: 25%;
   min-width: 200px !important;
+  max-width: 250px;
   margin: 0 10px 20px 10px;
   flex: 1;
-  overflow-y: scroll;
+  overflow-y: hidden;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
@@ -247,6 +262,15 @@ img #github-logo{
   clear: both;
   height: 0;
   font-size: 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: grey;
 }
 
 @media (max-width:400px) and (min-width:900px) {
